@@ -1,0 +1,7 @@
+from inventory_management import create_inevntory, display_stock
+
+items = []
+stock = {}
+price = {}
+create_inevntory(items,stock,price)
+display_stock(items,stock,price)
